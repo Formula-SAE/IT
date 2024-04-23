@@ -37,7 +37,7 @@ di tutti gli altri team.
 
 [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician
 
-[Marcello Pardo]() - Embedded Software Developer
+[Marcello Pardo]() - IT Support
 
 [Sergio Imperiale](https://www.linkedin.com/in/sergio-imperiale-99b39022b/) - IT Support
 
