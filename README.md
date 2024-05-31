@@ -39,5 +39,4 @@ di tutti gli altri team.
 
 [Marcello Pardo]() - IT Support
 
-[Sergio Imperiale](https://www.linkedin.com/in/sergio-imperiale-99b39022b/) - IT Support
 
