@@ -1,4 +1,10 @@
-from pandas import read_csv, DataFrame, concat
+
+"""
+
+    IL TEAM IT BENE SUPREMO, IL TEAM IT - IL TEAM IT
+
+"""
+
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, filters, CallbackQueryHandler, CallbackContext
 from make_video_from_name import and_his_name_is
@@ -35,11 +41,20 @@ def create_fronzoli():
     except FileExistsError:
         pass
 
+    try:
+        file_txt = open("chassis_users_to_tag.txt", "xt")
+        file_txt.close()
+        with open("stato_Aula.txt", "w") as f:
+            f.write(0)
+    except FileExistsError:
+        pass
+
 
 @staticmethod
-def already_in(username_id):
+def already_in(username_id: str, df_name: str) -> bool:
     """Verifica se l'utente che manda un messaggio è già registrato"""
-    df = read_csv("users_to_tag.csv", engine="c")
+    df_dict = {"spam": "users_to_tag.csv", "chassis": "chassis_users_to_tag.csv"}
+    df = read_csv(df_dict[df_name], engine="c")
     if df[df["id"] == username_id].size > 0:
         return True
     else:
@@ -47,7 +62,7 @@ def already_in(username_id):
 
 
 @staticmethod
-def convert_string(input_string):
+def convert_string(input_string: str) -> str:
     # Define a dictionary to map digits to letters
     char_mappings = {'8': 'B', '0': 'O', '1': 'I', '3': 'E', '5': 'S', "6": "G", "7": "T"}
     # Use regular expression to find characters and replace them with corresponding letters
@@ -58,7 +73,7 @@ def convert_string(input_string):
 
 
 @staticmethod
-async def open_video():
+async def open_video() -> None:
     global current_video_process
     if current_video_process:
         current_video_process.terminate()  # Terminate the current video process if it exists
@@ -67,7 +82,7 @@ async def open_video():
 
 
 @staticmethod
-async def close_video():
+async def close_video() -> None:
     global current_video_process
     sleep(10)
     if current_video_process:
@@ -175,11 +190,11 @@ async def daily_chiudi_Aula(update, context):
         file.write("0")
 
 
-async def store_user_4tag(update, context):
+async def spam_store_user_4tag(update, context):
     df = read_csv("users_to_tag.csv", engine="c")
     username = update.message.from_user.first_name
     username_id = int(update.message.from_user.id)
-    if not already_in(username_id):
+    if not already_in(username_id, "spam"):
         new_username = DataFrame({'user': username,
                                         'id': username_id}, index=[df.shape[0] + 1])
         df = concat([df, new_username])
@@ -187,8 +202,41 @@ async def store_user_4tag(update, context):
         await update.message.reply_text(f"Grazie {update.message.from_user.username}, ora sei nel giro")
 
 
-async def tag_all(update, context):
+async def store_chassis_user_4tag(update, context):
+    df = read_csv("chassis_users_to_tag.csv", engine="c")
+    username = update.message.from_user.first_name
+    username_id = int(update.message.from_user.id)
+    if not already_in(username_id, "chassis"):
+        new_username = DataFrame({'user': username,
+                                        'id': username_id}, index=[df.shape[0] + 1])
+        df = concat([df, new_username])
+        df.to_csv("chassis_users_to_tag.csv", index=False)
+        await update.message.reply_text(f"Grazie {update.message.from_user.username}, ora sei nel giro")
+
+
+async def tag_all_spam(update, context):
     df = read_csv("users_to_tag.csv", engine="c")
+    tagged_users = []
+    for index, row in df.iterrows():
+        username = row["user"]
+        id = int(row["id"])
+        tagged_user = f'<a href="tg://user?id={id}">{username}</a>'
+        tagged_users.append(tagged_user)
+    tagged_users_str = '\n'.join(tagged_users)
+    messsaggi_preimpostati = [
+        "Il dovere chiama",
+        "Fatevi sentire",
+        "Oggi tocca a voi",
+        "Ecco i Boss",
+        "Siete sempre nel mio cuore",
+        "Vi voglio bene"
+    ]
+    messaggio_preimpostato = choice(messsaggi_preimpostati)
+    await update.message.reply_html(f"{messaggio_preimpostato}\n{tagged_users_str}")
+
+
+async def tag_all_chassis(update, context):
+    df = read_csv("chassis_users_to_tag.csv", engine="c")
     tagged_users = []
     for index, row in df.iterrows():
         username = row["user"]
@@ -286,7 +334,8 @@ async def connect(fittizio):
 
 def main():
     # Telegram Bot token
-    # TOKEN = 
+    with open("toke.txt", "r") as file:
+        TOKEN = file.read()
     application = Application.builder().token(TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
@@ -297,9 +346,11 @@ def main():
     application.add_handler(CommandHandler("stato_Aula", stato_Aula))
     application.add_handler(CommandHandler("apri_Aula_Falcon", apri_Aula))
     application.add_handler(CommandHandler("chiudi_Aula_Falcon", chiudi_Aula))
-    application.add_handler(CommandHandler("in", store_user_4tag))
-    application.add_handler(CommandHandler("all", tag_all))
-    application.add_handler(CommandHandler("all_admin", tag_all_admin))
+    application.add_handler(CommandHandler("in_spam", spam_store_user_4tag))
+    application.add_handler(CommandHandler("sono_di_chassis", store_chassis_user_4tag))
+    application.add_handler(CommandHandler("all_spam", tag_all_spam))
+    application.add_handler(CommandHandler("all_chassis", tag_all_chassis))
+    # application.add_handler(CommandHandler("all_admin", tag_all_admin))
     application.add_handler(CallbackQueryHandler(button_callback))
     
     job_queue = application.job_queue
