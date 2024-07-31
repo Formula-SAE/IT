@@ -27,15 +27,15 @@ dei dati e gestione del sistema informatico sono solo alcuni dei compiti che que
 di tutti gli altri team.
 
 
-| ![Gabriele Amorello](./Resources/Members/GabrieleAmorello.png) | ![Gabriele Lo Cascio](./Resources/Members/GabrieleLoCascio.png) | ![Simone Salvatore La Milia](./Resources/Members/SimoneSalvatoreLaMilia.png) |
+| ![Gabriele Amorello](./Resources/Members/GabrieleAmorello.png) | ![Simone Salvatore La Milia](./Resources/Members/SimoneSalvatoreLaMilia.png) | ![Gabriele Lo Cascio](./Resources/Members/GabrieleLoCascio.png) |
 |:--------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------:|
-| [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/) - Team Leader | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/) - Embedded Software & Telegram Developer | [Simone Salvatore La Milia]() - Cloud Developer |
+| [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/)<br>Team Leader | [Simone Salvatore La Milia]()<br>Cloud Developer | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/)<br>Embedded Software & Telegram Developer |
 
 | ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.png) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.png) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.png) |
 |:-------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
-| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/) - WordPress Developer | [Marcello Pardo]() - IT Support | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician |
+| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>Embedded Software Developer | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
 
 | ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.png) | ![Francesco](./Resources/Members/Francesco.png) |
 |:-------------------------------------------------------------:|:----------------------------------------------:|
-| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/) - New Entry | [Francesco]() - New Entry |
+| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco]()<br>New Entry |
 
