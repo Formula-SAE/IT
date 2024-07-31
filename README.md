@@ -1,7 +1,7 @@
 # Apex Corse
 
 ![Project's banner](./Resources/Banners/banner.jpg)
-
+https://github.com/Formula-SAE/IT/blob/main/README.md
 ![GitHub repo size](https://img.shields.io/github/repo-size/Formula-SAE/IT)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/SQLAlchemy)
 ![GitHub](https://img.shields.io/github/license/Formula-SAE/IT)
@@ -31,7 +31,7 @@ di tutti gli altri team.
 |:--------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------:|
 | [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/) - Team Leader | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/) - Embedded Software & Telegram Developer | [Simone Salvatore La Milia]() - Cloud Developer |
 
-| ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.png) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.png) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.jpg) |
+| ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.png) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.png) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.png) |
 |:-------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
 | [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/) - WordPress Developer | [Marcello Pardo]() - IT Support | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician |
 
