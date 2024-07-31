@@ -35,8 +35,11 @@ di tutti gli altri team.
 
 [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/) - WordPress Developer
 
-[Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician
-
 [Marcello Pardo]() - IT Support
 
+[Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician
+
+[Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/) - New Entry
+
+[Francesco ]() - New Entry
 
