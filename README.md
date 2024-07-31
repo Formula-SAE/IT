@@ -26,15 +26,15 @@ dei dati e gestione del sistema informatico sono solo alcuni dei compiti che que
 di tutti gli altri team.
 
 
-| ![Gabriele Amorello](./Resources/Members/GabrieleAmorello.png) | ![Simone Salvatore La Milia](./Resources/Members/SimoneSalvatoreLaMilia.png) | ![Gabriele Lo Cascio](./Resources/Members/GabrieleLoCascio.png) |
-|:--------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------:|
+| <img src="./Resources/Members/GabrieleAmorello.png" width="150" height="150" alt="Gabriele Amorello"> | <img src="./Resources/Members/SimoneSalvatoreLaMilia.png" width="150" height="150" alt="Simone Salvatore La Milia"> | <img src="./Resources/Members/GabrieleLoCascio.png" width="150" height="150" alt="Gabriele Lo Cascio"> |
+|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
 | [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/)<br>Team Leader | [Simone Salvatore La Milia]()<br>Cloud Developer | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/)<br>Embedded Software & Telegram Developer |
 
-| ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.png) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.png) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.png) |
-|:-------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
-| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>Embedded Software Developer | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
+| <img src="./Resources/Members/GabrieleLaMilia.png" width="150" height="150" alt="Gabriele La Milia"> | <img src="./Resources/Members/MarcelloPardo.png" width="150" height="150" alt="Marcello Pardo"> | <img src="./Resources/Members/GiuseppeAlosi.png" width="150" height="150" alt="Giuseppe Alosi"> |
+|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
+| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>IT Support | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
 
-| ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.png) | ![Francesco Abitabile](./Resources/Members/FrancescoAbitabile.png) |
-|:-------------------------------------------------------------:|:----------------------------------------------:|
-| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco Abitabile]()<br>New Entry |
+| <img src="./Resources/Members/GiuseppeScibetta.png" width="150" height="150" alt="Giuseppe Scibetta"> | <img src="./Resources/Members/FrancescoAbitabile.png" width="150" height="150" alt="Francesco"> |
+|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco]()<br>New Entry |
 
