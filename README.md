@@ -27,15 +27,15 @@ dei dati e gestione del sistema informatico sono solo alcuni dei compiti che que
 di tutti gli altri team.
 
 
-| ![Gabriele Amorello](./Resources/Members/GabrieleAmorello.jpg) | ![Gabriele Lo Cascio](./Resources/Members/GabrieleLoCascio.jpg) | ![Simone Salvatore La Milia](./Resources/Members/SimoneSalvatoreLaMilia.jpg) |
+| ![Gabriele Amorello](./Resources/Members/GabrieleAmorello.png) | ![Gabriele Lo Cascio](./Resources/Members/GabrieleLoCascio.png) | ![Simone Salvatore La Milia](./Resources/Members/SimoneSalvatoreLaMilia.png) |
 |:--------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------:|
 | [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/) - Team Leader | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/) - Embedded Software & Telegram Developer | [Simone Salvatore La Milia]() - Cloud Developer |
 
-| ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.jpg) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.jpg) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.jpg) |
+| ![Gabriele La Milia](./Resources/Members/GabrieleLaMilia.png) | ![Marcello Pardo](./Resources/Members/MarcelloPardo.png) | ![Giuseppe Alosi](./Resources/Members/GiuseppeAlosi.jpg) |
 |:-------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
 | [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/) - WordPress Developer | [Marcello Pardo]() - IT Support | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/) - IT Technician |
 
-| ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.jpg) | ![Francesco](./Resources/Members/Francesco.jpg) |
+| ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.png) | ![Francesco](./Resources/Members/Francesco.png) |
 |:-------------------------------------------------------------:|:----------------------------------------------:|
 | [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/) - New Entry | [Francesco]() - New Entry |
 
