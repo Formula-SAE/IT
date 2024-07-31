@@ -1,7 +1,6 @@
 # Apex Corse
 
 ![Project's banner](./Resources/Banners/banner.jpg)
-https://github.com/Formula-SAE/IT/blob/main/README.md
 ![GitHub repo size](https://img.shields.io/github/repo-size/Formula-SAE/IT)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/SQLAlchemy)
 ![GitHub](https://img.shields.io/github/license/Formula-SAE/IT)
