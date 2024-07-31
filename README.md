@@ -35,7 +35,7 @@ di tutti gli altri team.
 |:-------------------------------------------------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
 | [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>Embedded Software Developer | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
 
-| ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.png) | ![Francesco](./Resources/Members/Francesco.png) |
+| ![Giuseppe Scibetta](./Resources/Members/GiuseppeScibetta.png) | ![Francesco Abitabile](./Resources/Members/FrancescoAbitabile.png) |
 |:-------------------------------------------------------------:|:----------------------------------------------:|
-| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco]()<br>New Entry |
+| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco Abitabile]()<br>New Entry |
 
