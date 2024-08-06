@@ -32,7 +32,7 @@ di tutti gli altri team.
 
 | <img src="./Resources/Members/GabrieleLaMilia.png" width="150" height="150" alt="Gabriele La Milia"> | <img src="./Resources/Members/MarcelloPardo.png" width="150" height="150" alt="Marcello Pardo"> | <img src="./Resources/Members/GiuseppeAlosi.png" width="150" height="150" alt="Giuseppe Alosi"> |
 |:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
-| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>IT Support | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
+| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>Embedded Software Developer | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
 
 | <img src="./Resources/Members/GiuseppeScibetta.png" width="150" height="150" alt="Giuseppe Scibetta"> | <img src="./Resources/Members/FrancescoAbitabile.png" width="150" height="150" alt="Francesco"> |
 |:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
