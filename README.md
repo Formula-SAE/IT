@@ -27,14 +27,14 @@ di tutti gli altri team.
 
 
 | <img src="./Resources/Members/GabrieleAmorello.png" width="150" height="150" alt="Gabriele Amorello"> | <img src="./Resources/Members/SimoneSalvatoreLaMilia.png" width="150" height="150" alt="Simone Salvatore La Milia"> | <img src="./Resources/Members/GabrieleLoCascio.png" width="150" height="150" alt="Gabriele Lo Cascio"> |
-|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
-| [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/)<br>Team Leader | [Simone Salvatore La Milia]()<br>Cloud Developer | [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/)<br>Embedded Software Developer |
+|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
+| [Gabriele Amorello](https://www.linkedin.com/in/gabriele-salvatore-amorello-808954180/)<br>Team Leader | [Simone Salvatore La Milia]()<br>Cloud Developer |       [Gabriele Lo Cascio](https://www.linkedin.com/in/gabriele-locascio/)<br>Software Engineer        |
 
-| <img src="./Resources/Members/GabrieleLaMilia.png" width="150" height="150" alt="Gabriele La Milia"> | <img src="./Resources/Members/MarcelloPardo.png" width="150" height="150" alt="Marcello Pardo"> | <img src="./Resources/Members/GiuseppeAlosi.png" width="150" height="150" alt="Giuseppe Alosi"> |
-|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
-| [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>WordPress Developer | [Marcello Pardo]()<br>Embedded Software Developer | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
+| <img src="./Resources/Members/GabrieleLaMilia.png" width="150" height="150" alt="Gabriele La Milia"> | <img src="./Resources/Members/GiuseppeScibetta.png" width="150" height="150" alt="Giuseppe Scibetta"> | <img src="./Resources/Members/GiuseppeAlosi.png" width="150" height="150" alt="Giuseppe Alosi"> |
+|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
+|          [Gabriele La Milia](https://www.linkedin.com/in/gabrielelm/)<br>Directive Operator          |                              [Giuseppe Scibetta]()<br>Software Engineer                               | [Giuseppe Alosi](https://www.linkedin.com/in/giuseppe-alosi-47a898202/)<br>IT Technician |
 
-| <img src="./Resources/Members/GiuseppeScibetta.png" width="150" height="150" alt="Giuseppe Scibetta"> | <img src="./Resources/Members/FrancescoAbitabile.png" width="150" height="150" alt="Francesco"> |
-|:----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
-| [Giuseppe Scibetta](https://www.linkedin.com/in/giuseppeshib/)<br>New Entry | [Francesco]()<br>New Entry |
+| <img src="./Resources/Members/FrancescoAbitabile.png" width="150" height="150" alt="Francesco"> |
+|:-----------------------------------------------------------------------------------------------:|
+ |                              [Francesco Abitabile]()<br>New Entry                               |
 

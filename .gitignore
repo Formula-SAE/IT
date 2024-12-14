@@ -1,5 +1,9 @@
 
 /.idea
-/Bot
-/Bot
-token.txt
+Bot/token.txt
+/venv
+.env
+*.pyc
+*.xml
+*.iml
+*.sqlite
