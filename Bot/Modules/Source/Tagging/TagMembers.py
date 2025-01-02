@@ -17,20 +17,24 @@ async def tag_members(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for users in GetGroupUsers(update.message.chat.id)
     ]
 
-    # Join tagged users into a single string
-    tagged_users_str = '\n'.join(tagged_users)
+    if len(tagged_users) == 0:
+        await update.message.reply_text(text="Nessun membro di questo gruppo si è ancora registrato per il tag")
+    else:
 
-    messsaggi_preimpostati = [
-        "Il dovere chiama",
-        "Fatevi sentire",
-        "Oggi tocca a voi",
-        "Ecco i Boss",
-        "Siete sempre nel mio cuore",
-        "Vi voglio bene"
-    ]
+        # Join tagged users into a single string
+        tagged_users_str = '\n'.join(tagged_users)
 
-    # Select a random message
-    messaggio_preimpostato = choice(messsaggi_preimpostati)
+        messsaggi_preimpostati = [
+            "Il dovere chiama",
+            "Fatevi sentire",
+            "Oggi tocca a voi",
+            "Ecco i Boss",
+            "Siete sempre nel mio cuore",
+            "Vi voglio bene"
+        ]
 
-    # Reply with the final message
-    await update.message.reply_html(f"{messaggio_preimpostato}\n{tagged_users_str}")
+        # Select a random message
+        messaggio_preimpostato = choice(messsaggi_preimpostati)
+
+        # Reply with the final message
+        await update.message.reply_html(f"{messaggio_preimpostato}\n{tagged_users_str}")

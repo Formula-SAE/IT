@@ -7,3 +7,4 @@ Bot/token.txt
 *.xml
 *.iml
 *.sqlite
+Bot/Modules/Source/Suona/output.mp3
