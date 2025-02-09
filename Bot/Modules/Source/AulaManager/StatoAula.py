@@ -4,10 +4,11 @@ from telegram.ext import ContextTypes
 from Bot.Modules.Shared.Query import GetStatoAula, SetStatoAula
 from random import choice
 
+
 async def stato_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
     status = GetStatoAula("AulaFalcon")
     if status:
-        messsaggi_preimpostati = [
+        messaggi_preimpostati = [
             "sei fortunato l'Aula Falcon è aperta!",
             "sei stato baciato da Salvatore Papa!",
             "oggi sei fortunato",
@@ -18,10 +19,10 @@ async def stato_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "arricampati!",
             "vieni a darmi un bacino"
         ]
-        messaggio_preimpostato = choice(messsaggi_preimpostati)
+        messaggio_preimpostato = choice(messaggi_preimpostati)
         await update.message.reply_text(f"Ehy {update.message.from_user.username}, {messaggio_preimpostato}")
     else:
-        messsaggi_preimpostati = [
+        messaggi_preimpostati = [
             "oggi ti è andata male",
             "non hai speranze",
             "ti sembra il momento?",
@@ -29,14 +30,14 @@ async def stato_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "uffa ancora non c'è nessuno",
             "solo non si vedono i capi repartooo, non c'è nessuno"
         ]
-        messaggio_preimpostato = choice(messsaggi_preimpostati)
+        messaggio_preimpostato = choice(messaggi_preimpostati)
         await update.message.reply_text(f"Ehy {update.message.from_user.username}, {messaggio_preimpostato}")
 
 
 async def apri_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
     SetStatoAula("AulaFalcon", True)
     username = update.message.from_user.username
-    messsaggi_preimpostati = [
+    messaggi_preimpostati = [
         "hai aperto l'Aula Falcon ma non ti credere un esperto",
         "si ma calmati",
         "finalmente che Alosi aspettava te",
@@ -47,14 +48,14 @@ async def apri_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "era ora",
         "vieni che mi sento solo"
     ]
-    messaggio_preimpostato = choice(messsaggi_preimpostati)
+    messaggio_preimpostato = choice(messaggi_preimpostati)
     await update.message.reply_text(f"Ok {username}, {messaggio_preimpostato}")
 
 
 async def chiudi_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
     username = update.message.from_user.username
     SetStatoAula("AulaFalcon", False)
-    messsaggi_preimpostati = [
+    messaggi_preimpostati = [
         "mi spiace ma è giusto così",
         "non lasciarmi solo per troppo tempo",
         "torna presto ho bisogno di te",
@@ -65,7 +66,7 @@ async def chiudi_aula(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "batti panni libera tutti",
         "ma sappi che sto piangendo"
     ]
-    messaggio_preimpostato = choice(messsaggi_preimpostati)
+    messaggio_preimpostato = choice(messaggi_preimpostati)
     await update.message.reply_text(f"Ok {username}, {messaggio_preimpostato}")
 
 

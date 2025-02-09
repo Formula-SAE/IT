@@ -107,7 +107,8 @@ def main(stdscr):
                     try:
                         CreatePersistent()
                         selectedSomething = True
-                    except:
+                    except Exception as e:
+                        print(e)
                         selectedSomething = False
                         error = True
                     finally:
@@ -123,5 +124,6 @@ def main(stdscr):
 
 try:
     curses.wrapper(main)
-except:
+except Exception as e:
+    print(e)
     print("\033[91m ERRORE! Allarga il terminale per piacere!\033[0m")

@@ -3,6 +3,8 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ContextTypes, CallbackContext
 from Bot.Modules.Source.SubMenu import SubMenu
 from Bot.Modules.Source.Utility import *
+from Bot.Modules.Source.Admin.AdminMenu import AdminMenu
+from Bot.Modules.Source.Admin.SendMessage import SendMessage
 
 from Bot.Modules.Source.ConversationManager import ConversationManager
 from Bot.Modules.Shared.Query import GetIsAdmin
@@ -30,6 +32,7 @@ class Start(SubMenu):
             if GetIsAdmin(update.message.from_user.id):
                 main_menu_keyboard = []
                 classes_to_generate = {"ConversationManager": ConversationManager()}
+                classes_to_generate |= {"Admin": AdminMenu(), "SendMessage": SendMessage()}
 
                 # ----- BUTTONS -----
 
